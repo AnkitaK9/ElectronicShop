@@ -1,0 +1,46 @@
+.total {
+  margin-left: 100px;
+}
+
+.order-cards {
+  display: flex;
+  direction: column;
+  flex-wrap: unset;
+}
+
+.order-card {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.order-card h2 {
+  margin-left: 10px;
+}
+
+.order-card p {
+  margin-left: 10px;
+}
+
+.order-card button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 5px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.order-card button:hover {
+  background-color: #00b300;
+}
